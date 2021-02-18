@@ -53,7 +53,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = "login";
 $route['404_override'] = 'error';
 
-
 /*********** USER DEFINED ROUTES *******************/
 
 $route['loginMe'] = 'login/loginMe';
@@ -98,8 +97,6 @@ $route['editAccordianImage/(:num)'] 	= "homepage/editAccordianImage/$1";
 $route['updateAccordianImage/(:num)']   = "homepage/updateAccordianImage/$1";
 $route['deleteAccordianImage/(:num)']   = "homepage/deleteAccordianImage/$1";
 
-
-
 $route['newStaticpage'] = "staticpages/newStaticpage";
 $route['addNewStaticpage'] = "staticpages/addNewStaticpage";
 $route['manageStaticpages/(:num)'] = "staticpages/manageStaticpages/$1";
@@ -109,7 +106,6 @@ $route['editStaticpages/(:num)'] = "staticpages/editStaticpages/$1";
 $route['updateStaticpages/(:num)'] = "staticpages/updateStaticpages/$1";
 $route['deleteStaticpages/(:num)'] = "staticpages/deleteStaticpage/$1";
 
-
 $route['newFaqs'] = "faqs/newFaqs";
 $route['addNewFaqs'] = "faqs/addNewFaqs";
 $route['manageFaqs/(:num)'] = "faqs/manageFaqs/$1";
@@ -118,7 +114,6 @@ $route['editFaqs'] = "faqs/editFaqs";
 $route['editFaqs/(:num)'] = "faqs/editFaqs/$1";
 $route['updateFaqs/(:num)'] = "faqs/updateFaqs/$1";
 $route['deleteFaqs/(:num)'] = "faqs/deleteFaqs/$1";
-
 
 $route['newProfile'] = "profile/newProfile";
 $route['addNewProfile'] = "profile/addNewProfile";
@@ -138,7 +133,6 @@ $route['editProfileCat/(:num)'] = "profile/editProfileCat/$1";
 $route['updateProfileCat/(:num)'] = "profile/updateProfileCat/$1";
 $route['deleteProfileCat/(:num)'] = "profile/deleteProfileCat/$1";
 
-
 $route['newProgramme'] = "programme/newProgramme";
 $route['addNewProgramme'] = "programme/addNewProgramme";
 $route['manageProgramme/(:num)'] = "programme/manageProgramme/$1";
@@ -148,7 +142,6 @@ $route['editProgramme/(:num)'] = "programme/editProgramme/$1";
 $route['updateProgramme/(:num)'] = "programme/updateProgramme/$1";
 $route['deleteProgramme/(:num)'] = "programme/deleteProgramme/$1";
 
-
 $route['newTestimonials'] = "testimonials/newTestimonials";
 $route['addNewTestimonials'] = "testimonials/addNewTestimonials";
 $route['manageTestimonials/(:num)'] = "testimonials/manageTestimonials/$1";
@@ -157,9 +150,6 @@ $route['editTestimonials'] = "testimonials/editTestimonials";
 $route['editTestimonials/(:num)'] = "testimonials/editTestimonials/$1";
 $route['updateTestimonials/(:num)'] = "testimonials/updateTestimonials/$1";
 $route['deleteTestimonials/(:num)'] = "testimonials/deleteTestimonials/$1";
-
-
-
 
 $route['userListing'] = 'user/userListing';
 $route['userListing/(:num)'] = "user/userListing/$1";
