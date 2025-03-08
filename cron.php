@@ -172,9 +172,9 @@ class Cron
     {
 		if('testing'==ENVIRONMENT) {
 			define('DBHOST','localhost');
-			define('DBUSER','root');
-			define('DBPASS','');
-			define('DBNAME','newtwister');
+			define('DBUSER','sk1');
+			define('DBPASS','sk1');
+			define('DBNAME','t3');
 		}
 		elseif('development'==ENVIRONMENT) {
 			define('DBHOST','10.5.0.189');
