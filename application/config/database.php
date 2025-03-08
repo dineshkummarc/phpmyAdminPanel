@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 if('testing'==ENVIRONMENT) {
 	define('DBHOST','localhost');
-	define('DBUSER','root');
-	define('DBPASS','');
-	define('DBNAME','itgd_itmi');
+	define('DBUSER','sk1');
+	define('DBPASS','sk1');
+	define('DBNAME','t3');
 }
 elseif('development'==ENVIRONMENT) {
 	
